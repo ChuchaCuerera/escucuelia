@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	background: url(../img/sky.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contenedor{
+
+
+}
+
+.footer{
+	width: 100%;
+	height: 80px;
+	background: green;
+
+	float: left;
+
+}
+
+.frase{
+	text-align: center;
+	color: black;
+	font-size: 80px;
+
+}
+
+.bloque{
+	display: block;
+	width: 25%;
+	height: 100px;
+	background-color: yellow;
+	margin-left: 5%;
+
+}
+
+.row{
+
+	margin-left: 5vw;
+	display: block;
+	
+
+}
+
+.col-md-4{
+	width: 22.5vw;
+	height: 22.5vw;
+	background-color: #ccc;
+	border: 1px solid black;
+	
+	float: left;
+}
+
+.ventanas{
+	left: 0;
+	right: 0;
+
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 18%;
+
+	float: left;
+}
+
+.arriba{
+	top: 2vw;
+}
+.row2{
+	width: 90%;
+	margin-left: 5%;
+	display: block;
+	
+}
+
+.v{
+	width: 5vw;
+	height: 5vw;
+	background-color: blue;
+	float: left;
+
+}
+
+.v2{
+	width: 5vw;
+	height: 5vw;
+	background-color: blue;
+	float: right;
+
+}
+
+
+/*.v1{
+	width: 45%;
+	height: 50px;
+	background-color: blue;
+	float: left;
+
+}
+
+.v2{
+	width: 45%;
+	height: 50px;
+	background-color: blue;
+	float: right;
+	
+}
+*/
+.row3{
+	width: 90%;
+	margin-left: 5%;
+	display: block;
+
+	float: left;
+	margin-top: 5%;
+	
+}
+
+
+@media (max-width:720px){
+
+	.row{
+
+	margin-left: 0vw;
+	display: block;
+	
+
+}
+
+	.bloque{
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+	margin-left: 0%;
+
+}
+
+.col-md-4{
+	width: 100vw;
+	height: 100vw;
+	
+}
+
+.v{
+	width: 20vw;
+	height: 20vw;
+	background-color: blue;
+	float: left;
+
+}
+
+.v2{
+	width: 20vw;
+	height: 20vw;
+	background-color: blue;
+	float: right;
+
+}
+
+
+.footer{
+	position: relative;
+	float: left;
+
+}
+}

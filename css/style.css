@@ -1,0 +1,30 @@
+html, body {
+	border: 0;
+	margin: 0px;
+	padding: 0px;
+}
+
+.mensaje{
+	text-align: center;
+	margin-top: 45vh;
+}
+
+.col{
+	width: 50%;
+	float: left;
+}
+
+@media (max-width: 992px){
+	body{
+		background-color: gold;
+		color: salmon;
+	}
+
+	.mensaje{
+		display: inherit;
+	}
+
+	.col{
+		width: 100%
+	}
+}
